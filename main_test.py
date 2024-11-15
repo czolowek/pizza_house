@@ -82,11 +82,13 @@ def get_studens():
 
 
 create_db("my_first.db")
-add_student("Іван", "Іванов", 95)
-add_student("Микола", "Стародубов5", 69)
-add_student("Микола", "Стародубов1", 69)
-add_student("Микола", "Стародубов2", 69)
-add_student("Микола", "Стародубов3", 69)
-add_student("Микола", "Стародубов4", 69)
+
+
 
 get_studens()
+add_student("екрович", "Іванов", 96)
+add_student("марк", "игоревич", 88)
+add_student("игор", "кукушкин", 14)
+add_student("маслан", "стандарт", 44)
+add_student("григорич", "аркабич", 68)
+add_student("Микола", "ктото", 67)

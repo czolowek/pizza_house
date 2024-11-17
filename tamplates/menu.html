@@ -17,10 +17,10 @@
     <tbody>
         [% for pizza in pizzas|sort(atribute="price"),revers=True %]
         <tr>
-            <td>{{loop.index}}</td>
-            <td>{{loop.name}}</td>
-            <td>{{loop.ingredients}}</td>
-            <td>{{loop.price}}</td>
+            <td>{{pizza.index}}</td>
+            <td>{{pizza.name}}</td>
+            <td>{{pizza.ingredients}}</td>
+            <td>{{pizza.price}}</td>
 
         </tr>
         {% endfor %}

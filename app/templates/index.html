@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block center %}
+<table class="table table-dark table-hover">
+    <thead>
+        <tr>
+            <td>№</td>
+            <td>Ім'я</td>
+            <td>Група</td>
+        </tr>
+    </thead>
+    <tbody>
+        {% for student in students %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.group.name }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock center %}
